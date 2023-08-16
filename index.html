@@ -31,15 +31,36 @@
     </div>
   </nav>
 
-  <div class="section blue darken-4">
+  <div class="section wlplp">
     <div class="container srx-1">
-      <div class="form-container white">
+      <div class="form-container">
         <div class="row">
-          <div class="col s12">
+          <div class="col s12 center-align">
             <form>
               <div class="input-field">
-                <input placeholder="Digite seu nome" id="first_name" type="text" class="validate">
-                <label for="first_name">Nome</label>
+                <i class="material-icons prefix">account_circle</i>
+                <input id="icon_prefix" type="text" class="validate" required>
+                <label for="icon_prefix">Seu nome</label>
+              </div><!-- input-field -->
+              <div class="input-field">
+                <i class="material-icons prefix">mail</i>
+                <input id="icon_mail" type="email" class="validate" required>
+                <label for="icon_mail">Seu e-mail</label>
+              </div><!-- input-field -->
+              <div class="input-field">
+                <i class="material-icons prefix">phone</i>
+                <input id="icon_telephone" type="tel" class="validate phone_ph" required>
+                <label for="icon_telephone">Seu telefone</label>
+              </div><!-- input-field -->
+              <div class="input-field">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="icon_prefix2" class="materialize-textarea" required></textarea>
+                <label for="icon_prefix2">Digite sua mensagem</label>
+              </div><!-- input-field -->
+              <div class="input-field">
+                <button class="btn waves-effect waves-light indigo darken-4" type="submit" name="action">Enviar
+                  <i class="material-icons right">near_me</i>
+                </button>
               </div><!-- input-field -->
             </form>
           </div><!-- col -->
@@ -47,10 +68,41 @@
       </div><!-- form-container -->
     </div><!-- container -->
   </div><!-- section -->
-
+  <div class="section blue darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="custom-title">
+            <div class="white"></div>
+            <h2 class="blue darken-4 white-text">Sobre o autor</h2>
+          </div><!-- custom-title -->
+          <p class="flow-text white-text">I am a very simple card. I am good at containing small bits
+            of information. I am convenient because i require little markup to use effectively.</p>
+        </div><!-- col -->
+        <div class="col s12 m6">
+          <div class="custom-title">
+            <div class="white"></div>
+            <h2 class="blue darken-4 white-text">Mensagem do dia</h2>
+          </div><!-- custom-title -->
+          <div class="card indigo darken-3">
+            <div class="card-content white-text">
+              <span class="card-title">Título</span>
+              <p>Meu texto do card para ficar ekawokoka</p>
+            </div><!-- card-content -->
+            <div class="card-action">
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+            </div><!-- card-action -->
+          </div><!-- card -->
+        </div><!-- col -->
+      </div><!-- row -->
+    </div><!-- container -->
+  </div><!-- section -->
 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/jquery.mask.min.js"></script>
   <script src="js/materialize.js"></script>
+  <script src="js/script.js"></script>
   <script src="js/init.js"></script>
 
   </body>
