@@ -1,6 +1,5 @@
 .srx-1 {
   min-height: 400px;
-  height: auto;
   position: relative;
 }
 
@@ -13,4 +12,58 @@
   max-width: 700px;
   width: 100%;
   margin: 0 auto;
+  background-color: rgba(121, 134, 203, 0.6);
 }
+
+.custom-title {
+  position: relative;
+}
+
+.custom-title h2 {
+  font-size: 30px;
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.custom-title > div {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  left: 0;
+  top: 55px;
+  z-index: 1;
+}
+
+.wlplp {
+  background-image: url(../assets/background3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input-field label {
+  color: #000;
+}
+
+.input-field .prefix.active {
+  color: #283593;
+}
+
+.input-field input[type=text]:focus + label,
+.input-field input[type=name]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field input[type=tel]:focus + label, 
+.input-field textarea:focus + label {
+  color: #283593 !important;
+}
+
+.input-field input[type=text],
+.input-field input[type=name],
+.input-field input[type=email],
+.input-field input[type=tel],
+.input-field textarea {
+  border-bottom: 1px solid #283593 !important;
+}
+
