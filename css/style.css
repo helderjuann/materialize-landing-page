@@ -67,3 +67,8 @@
   border-bottom: 1px solid #283593 !important;
 }
 
+.flow-text {
+  position: relative;
+  top: -30px;
+}
+
