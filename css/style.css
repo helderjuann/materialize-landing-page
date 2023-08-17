@@ -65,7 +65,7 @@ p.content-t {
 }
 
 .wlplp {
-  background-image: url(https://wallpaperswide.com/download/coding-wallpaper-1600x1200.jpg);
+  background-image: url(https://img.freepik.com/premium-photo/abstract-luxury-gradient-blue-background_1258-24578.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -147,9 +147,15 @@ p.indigo-text {
 
   .card-content span {
     font-size: 16px !important;
+    position: relative;
+    top: -20px;
   }
   
   .card-action a {
     font-size: 8px;
+  }
+
+  .card {
+    height: 230px !important;
   }
 }
