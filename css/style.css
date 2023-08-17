@@ -9,7 +9,7 @@ html, body {
 }
 
 .srx-1 {
-  min-height: 400px;
+  min-height: 500px;
   position: relative;
 }
 
@@ -27,6 +27,11 @@ html, body {
 
 label {
   width: 80% !important;
+}
+
+.input-field span {
+  display: inline-block;
+  border-bottom: 1px solid black;
 }
 
 p.content-t {
@@ -52,6 +57,11 @@ p.content-t {
   left: 0;
   top: 55px;
   z-index: 1;
+}
+
+.card-border {
+  background-color: #283593;
+  padding: 2px;
 }
 
 .wlplp {
@@ -91,8 +101,8 @@ p.content-t {
   width: 100%;
 }
 
-.card-image img:not(.lulop img) {
-  filter: grayscale(70%);
+.card-image img {
+  filter: grayscale(10%);
 }
 
 .f-line {
