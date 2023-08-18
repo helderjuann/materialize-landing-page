@@ -13,6 +13,16 @@ html, body {
   position: relative;
 }
 
+.sidenav span {
+  border-top: 1px solid white !important;
+  padding: 15px 74.5px;
+}
+
+.sidenav i {
+  position: relative;
+  top: -30px;
+}
+
 .form-container {
   position: absolute;
   left: 50%;
@@ -126,6 +136,19 @@ span.title {
 
 p.indigo-text {
   padding-bottom: 6px;
+}
+
+footer .cpr-r {
+  text-align: center !important;
+  position: relative;
+  top: -10px;
+  z-index: 1 !important;
+}
+
+@media screen and (max-width: 992px) {
+  footer {
+    text-align: center !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
