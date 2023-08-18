@@ -71,7 +71,8 @@ p.content-t {
 
 .card-border {
   background-color: #283593;
-  padding: 2px;
+  padding: 2px 10px;
+  font-size: 14px;
 }
 
 .wlplp {
@@ -166,6 +167,10 @@ footer .cpr-r {
   .custom-title h2 {
     font-size: 20px;
     font-weight: bold;
+  }
+
+  .card-border {
+    font-size: 12px !important;
   }
 
   p.content-t {
