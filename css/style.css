@@ -145,6 +145,16 @@ p.indigo-text {
     font-weight: bold;
   }
 
+  p.content-t {
+    font-size: 15px !important;
+  }
+
+  p.content-w {
+    position: relative;
+    top: -15px;
+    font-size: 13px !important;
+  }
+
   .card-content span {
     font-size: 16px !important;
     position: relative;
